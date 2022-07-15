@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 // @ts-ignore
-import styles from '@styles/home.module.less';
+import styles from './home.module.less';
 import { Button } from 'antd';
 import { observer } from 'mobx-react-lite';
 import { appStore } from '@store/app-store';

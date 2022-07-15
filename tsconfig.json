@@ -17,8 +17,8 @@
     "baseUrl": ".",
     "paths": {
       "@root/*": ["./*"],
+      "@components/*": ["components/*"],
       "@store/*": ["store/*"],
-      "@styles/*": ["styles/*"],
       "@type/*": ["type/*"]
     }
   },

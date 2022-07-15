@@ -1,13 +1,11 @@
-// https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less
-@import '~antd/lib/style/themes/default.less';
-@import "~antd/dist/antd";
-@import "_colors";
-@import "_sizes";
+@import '~antd/dist/antd.less';
+@import "./_variables";
 
 html {
   font-size: @font-size-base;
 }
 
 #__next {
+  min-width: 414px; // iPhone XR
   min-height: 100vh;
 }
