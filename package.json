@@ -1,6 +1,6 @@
 {
   "name": "nextjs-antd-mobx-template",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -14,6 +14,7 @@
     "mobx": "^6.6.0",
     "mobx-react-lite": "^3.4.0",
     "next": "12.1.6",
+    "next-i18next": "^11.1.1",
     "next-with-less": "^2.0.5",
     "react": "18.2.0",
     "react-dom": "18.2.0"

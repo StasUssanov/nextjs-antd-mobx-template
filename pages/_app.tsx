@@ -1,8 +1,9 @@
-import '../styles/globals.less';
+import '@styles/globals.less';
 import type { AppProps } from 'next/app';
+import { appWithTranslation } from 'next-i18next';
 
 function App({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
 }
 
-export default App;
+export default appWithTranslation(App);
